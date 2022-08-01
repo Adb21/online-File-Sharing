@@ -43,7 +43,7 @@
             }).then(res => res.json())
                 .then(result => {
                     console.log(result)
-                    window.location = `http://127.0.0.1:8000/download/${result.data.folder}`;
+                    window.location = `/download/${result.data.folder}`;
                 })
         }
 
